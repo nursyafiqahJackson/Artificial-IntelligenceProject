@@ -29,6 +29,8 @@ As for now, you as a Data Scientist or Machine Learning Engineer or Practitioner
 
 
 ![Coding](https://github.com/nursyafiqahJackson/Artificial-IntelligenceProject/blob/6e1c16d7ed3c9d5c3b4bf23188352611832c0409/download%20(2).jfif)
+
+
 Figure 1 shows the AI output of detecting which user is not wearing a face mask or inappropriate face mask.
 
 
