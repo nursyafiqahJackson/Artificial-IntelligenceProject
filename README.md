@@ -6,7 +6,7 @@
 **Project Title:** Face Mask Detection using Deep Learning
 
 **Team Members:** 
-- [insert Member Name]
+-   NURIN SYAFIQAH BINTI MOHD SAOFI
 - [insert Member Name]
 - [insert Member Name]
 - [insert Member Name]
