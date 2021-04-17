@@ -40,6 +40,7 @@ In this project, we’ll discuss our four-phase vehicle number plate recognition
 
 From there, we’ll review the dataset we’ll be using to train our custom number plate recognition for Malaysia.
 
+![Coding](https://github.com/nursyafiqahJackson/Artificial-IntelligenceProject/blob/main/download%20(5).jfif)
 I’ll then show you how to implement a Python script to train a plate recognition on our dataset using Keras and TensorFlow.
 
 We’ll use this Python script to train a number plate detector and review the results.
@@ -139,7 +140,7 @@ The result have been performed to test the machine in various situation. The set
 
 
 ![Coding](https://github.com/nursyafiqahJackson/Artificial-IntelligenceProject/blob/main/download%20(4).jfif)
-
+![Coding](https://github.com/nursyafiqahJackson/Artificial-IntelligenceProject/blob/main/images%20(2).jfif)
 
 
 The performance was succesfull with 91.2% and the characters correctly classified. The purpose system will search the image for the high density edge regions which may contain a license plate. After that, a cleaning and a verification process will be performed on the extracte region to filter out those regions that do no contain a licnese plate. After that, the plate will be passed to the segmentation phase where it will be divided into number of sub-images equal to the number of characters contained in the plate. Finally, each sub-images will be passed to a Multi-Layer Perception Neural Network for identification. 
@@ -152,10 +153,4 @@ In this project, you learned how to create a vehicle number plate recognition us
 
 Our vehicle number plate recognition is accurate, and since we used the MobileNetV2 architecture, it’s also computationally efficient, making it easier to deploy the model to embedded systems (Raspberry Pi, Google Coral, Jetosn, Nano, etc.).
 (https://www.youtube.com/watch?v=nIq88fVd27k&ab_channel=TanWenXiang)
-
-
-
-
-
-[![demo](https://www.youtube.com/watch?v=nIq88fVd27k&ab_channel=TanWenXiang)]https://www.youtube.com/watch?v=nIq88fVd27k&ab_channel=TanWenXiang "demo")
 
