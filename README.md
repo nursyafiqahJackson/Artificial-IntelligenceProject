@@ -50,11 +50,11 @@ The algorithm of number plate recognition consist as follow :
 - Extracting the images of license plate
 - Extracting characters from the plate
 - Recognizing the characte
-- 
+
 We’ll wrap up the post by looking at the results of applying our number plate recognition.
 
 
-There is two-phase COVID-19 face mask detector as shown in Figure 2:
+Plate extraction module as shown in Figure 2:
 
 ![Figure 2](https://www.pyimagesearch.com/wp-content/uploads/2020/04/face_mask_detection_phases.png)
 Figure 2: Phases and individual steps for building a COVID-19 face mask detector with computer vision and deep learning 
