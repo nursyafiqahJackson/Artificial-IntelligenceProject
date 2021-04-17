@@ -65,7 +65,7 @@ The plate extractiom process contains five different phases. Each phase performs
 
 - Pre-processing : The image are processed into RGB images using the NTSC method. 
 
--Plate extraction : Searching for vertical position of the license plate.
+- Plate extraction : Searching for vertical position of the license plate.
 
 - Character segmentation : Identifying the charcter and divided into different images
 
@@ -74,25 +74,20 @@ The plate extractiom process contains five different phases. Each phase performs
 Let’s take a look at the dataset we’ll be using to train our COVID-19 face mask detector.
 
 
-Our COVID-19 face mask detection dataset as shown in Figure 3:
+Our plate number recognition dataset as shown in Figure 3:
 
 ![Figure 3]( https://www.pyimagesearch.com/wp-content/uploads/2020/04/face_mask_detection_dataset.jpg )
 
-Figure 3: A face mask detection dataset consists of “with mask” and “without mask” images. 
+Figure 3: A plate number recognition that can detect the plate even from sided trace. 
 
-The dataset we’ll be using here today was created by PyImageSearch reader Prajna Bhandary.
+The dataset we’ll be using here today was created by PyImageSearch reader Adrian Rosebrock.
 
-This dataset consists of 1,376 images belonging to two classes:
-
-- with_mask: 690 images
-- without_mask: 686 images
-
-Our goal is to train a custom deep learning model to detect whether a person is or is not wearing a mask.
+Our goal is to train a custom deep learning model to detect the vechicle number plate within more than 60 km/h. 
 
 How was our face mask dataset created?
-Prajna, like me, has been feeling down and depressed about the state of the world — thousands of people are dying each day, and for many of us, there is very little (if anything) we can do.
+Adrian, like me, was curious how does this machine work and how does it implment. Thus, how does this machine understand which type of traffic crime did human make ? 
 
-To help keep her spirits up, Prajna decided to distract herself by applying computer vision and deep learning to solve a real-world problem:
+To help keep her spirits up, Adrian decided to distract herself by applying computer vision and deep learning to solve a real-world problem:
 
 - Best case scenario — she could use her project to help others
 - Worst case scenario — it gave her a much needed mental escape
@@ -101,43 +96,43 @@ To help keep her spirits up, Prajna decided to distract herself by applying comp
 ## D.   PROJECT STRUCTURE
 
 The following directory is our structure of our project:
-- $ tree --dirsfirst --filelimit 10
+- $ tree --dirsfirst --
 - .
-- ├── dataset
-- │   ├── with_mask [690 entries]
-- │   └── without_mask [686 entries]
-- ├── examples
-- │   ├── example_01.png
-- │   ├── example_02.png
-- │   └── example_03.png
-- ├── face_detector
-- │   ├── deploy.prototxt
-- │   └── res10_300x300_ssd_iter_140000.caffemodel
-- ├── detect_mask_image.py
-- ├── detect_mask_video.py
-- ├── mask_detector.model
-- ├── plot.png
-- └── train_mask_detector.py
-- 5 directories, 10 files
+- ├── license_plates
+- │   ├── group1
+- │   |   ├── 0.01.jpg
+- │   |   ├── 0.02.jpg
+- │   |   ├── 0.03.jpg
+- │   |   ├── 0.04.jpg
+- │   |   └── 0.05.jpg
+-     └── group2
+- │       ├── 0.01.jpg
+- │       ├── 0.02.jpg
+- │       └── 0.03.jpg
+- ├── pyimagesearch
+- │   ├── anpr
+- |   |   └── _init_.py
+- │   |   └── anpr.py 
+- |   └──  _init_.py
+- └── ocr_license_plate.py
+- 5 directories, 12 files
 
 
-The dataset/ directory contains the data described in the “Our COVID-19 face mask detection dataset” section.
+The dataset/ directory contains the data described.
 
-Three image examples/ are provided so that you can test the static image face mask detector.
+Three image examples/ are provided so that you can test the static image plate number recognition.
 
 We’ll be reviewing three Python scripts in this tutorial:
 
-- train_mask_detector.py: Accepts our input dataset and fine-tunes MobileNetV2 upon it to create our mask_detector.model. A training history plot.png containing accuracy/loss curves is also produced
-- detect_mask_image.py: Performs face mask detection in static images
-- detect_mask_video.py: Using your webcam, this script applies face mask detection to every frame in the stream
-
-In the next two sections, we will train our face mask detector.
+- license_plates: Directory containing two sub-directories of JPG images
+- anpr.py: Contains the PyImageSearchANPR class responsible for localizing license/number plates and performing OCR
+- ocr_license_plate.py: Our main driver Python script, which uses our PyImageSearchANPR class to OCR entire groups of images
 
 
 
 ## E   TRAINING THE COVID-19 FACE MASK DETECTION
 
-We are now ready to train our face mask detector using Keras, TensorFlow, and Deep Learning.
+We are now ready to train system using OPenCv, Phyton and Deep Learning.
 
 From there, open up a terminal, and execute the following command:
 
