@@ -136,7 +136,7 @@ The result have been performed to test the machine in various situation. The set
 - various enviroment
 - Different angles. 
 
-download (4).jfif
+https://github.com/nursyafiqahJackson/Artificial-IntelligenceProject/blob/main/download%20(4).jfif
 
 The performance was succesfull with 91.2% and the characters correctly classified. The purpose system will search the image for the high density edge regions which may contain a license plate. After that, a cleaning and a verification process will be performed on the extracte region to filter out those regions that do no contain a licnese plate. After that, the plate will be passed to the segmentation phase where it will be divided into number of sub-images equal to the number of characters contained in the plate. Finally, each sub-images will be passed to a Multi-Layer Perception Neural Network for identification. 
 
