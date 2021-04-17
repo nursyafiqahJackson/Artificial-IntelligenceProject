@@ -59,13 +59,19 @@ Plate extraction module as shown in Figure 2:
 ![Figure 2](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.sciencedirect.com%2Fscience%2Farticle%2Fpii%2FS0167865519303216&psig=AOvVaw1WoDD7gUYVHV2S4FEz6He9&ust=1618709676149000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNCQqfSRhPACFQAAAAAdAAAAABAR)
 Figure 2: Phases and individual steps for building a vehicle plate number recognition with computer vision and deep learning 
 
-In order to train a custom face mask detector, we need to break our project into two distinct phases, each with its own respective sub-steps (as shown by Figure 1 above):
+The plate extractiom process contains five different phases. Each phase performs a segmentation process on the gray image to eliminate the redundant pixels that don't belong to a plate region. 
 
-- Training: Here we’ll focus on loading our face mask detection dataset from disk, training a model (using Keras/TensorFlow) on this dataset, and then serializing the face mask detector to disk
+- Input image : Raw and any formate image will be captured and sent ot the computer. 
 
-- Deployment: Once the face mask detector is trained, we can then move on to loading the mask detector, performing face detection, and then classifying each face as with_mask or without_mask
+- Pre-processing : The image are processed into RGB images using the NTSC method. 
 
-We’ll review each of these phases and associated subsets in detail in the remainder of this tutorial, but in the meantime, let’s take a look at the dataset we’ll be using to train our COVID-19 face mask detector.
+-Plate extraction : Searching for vertical position of the license plate.
+
+- Character segmentation : Identifying the charcter and divided into different images
+
+- Character recognition : The character succesfully occur in the database and can have a desired output. 
+
+Let’s take a look at the dataset we’ll be using to train our COVID-19 face mask detector.
 
 
 Our COVID-19 face mask detection dataset as shown in Figure 3:
