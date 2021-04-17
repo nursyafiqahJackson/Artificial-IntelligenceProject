@@ -105,7 +105,7 @@ The following directory is our structure of our project:
 - │   |   ├── 0.03.jpg
 - │   |   ├── 0.04.jpg
 - │   |   └── 0.05.jpg
--     └── group2
+- |   └── group2
 - │       ├── 0.01.jpg
 - │       ├── 0.02.jpg
 - │       └── 0.03.jpg
