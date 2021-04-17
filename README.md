@@ -31,7 +31,7 @@ As for now, we are going to use AI technology to recognize car plate registratio
 ![Coding](https://github.com/nursyafiqahJackson/Artificial-IntelligenceProject/blob/6e1c16d7ed3c9d5c3b4bf23188352611832c0409/download%20(2).jfif)
 
 
-Figure 1 shows the AI output of detecting which user is not wearing a face mask or inappropriate face mask.
+Figure 1 shows the AI output of plate number detection.
 
 
 ## C.  DATASET
@@ -56,8 +56,8 @@ We’ll wrap up the post by looking at the results of applying our number plate 
 
 Plate extraction module as shown in Figure 2:
 
-![Figure 2](https://www.pyimagesearch.com/wp-content/uploads/2020/04/face_mask_detection_phases.png)
-Figure 2: Phases and individual steps for building a COVID-19 face mask detector with computer vision and deep learning 
+![Figure 2](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.sciencedirect.com%2Fscience%2Farticle%2Fpii%2FS0167865519303216&psig=AOvVaw1WoDD7gUYVHV2S4FEz6He9&ust=1618709676149000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNCQqfSRhPACFQAAAAAdAAAAABAR)
+Figure 2: Phases and individual steps for building a vehicle plate number recognition with computer vision and deep learning 
 
 In order to train a custom face mask detector, we need to break our project into two distinct phases, each with its own respective sub-steps (as shown by Figure 1 above):
 
