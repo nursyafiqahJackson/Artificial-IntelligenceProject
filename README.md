@@ -56,7 +56,8 @@ We’ll wrap up the post by looking at the results of applying our number plate 
 
 Plate extraction module as shown in Figure 2:
 
-![Figure 2](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.sciencedirect.com%2Fscience%2Farticle%2Fpii%2FS0167865519303216&psig=AOvVaw1WoDD7gUYVHV2S4FEz6He9&ust=1618709676149000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNCQqfSRhPACFQAAAAAdAAAAABAR)
+![Figure 2]![Coding](https://github.com/nursyafiqahJackson/Artificial-IntelligenceProject/blob/main/download%20(3).jfif)
+
 Figure 2: Phases and individual steps for building a vehicle plate number recognition with computer vision and deep learning 
 
 The plate extractiom process contains five different phases. Each phase performs a segmentation process on the gray image to eliminate the redundant pixels that don't belong to a plate region. 
@@ -135,6 +136,8 @@ The result have been performed to test the machine in various situation. The set
 - complex scenes
 - various enviroment
 - Different angles. 
+
+
 ![Coding](https://github.com/nursyafiqahJackson/Artificial-IntelligenceProject/blob/main/download%20(4).jfif)
 
 
@@ -149,7 +152,7 @@ In this project, you learned how to create a vehicle number plate recognition us
 
 Our vehicle number plate recognition is accurate, and since we used the MobileNetV2 architecture, it’s also computationally efficient, making it easier to deploy the model to embedded systems (Raspberry Pi, Google Coral, Jetosn, Nano, etc.).
 
-(https://www.youtube.com/watch?v=nIq88fVd27k&ab_channel=TanWenXiang)
+( https://www.youtube.com/watch?v=nIq88fVd27k&ab_channel=TanWenXiang)
 
 
 
