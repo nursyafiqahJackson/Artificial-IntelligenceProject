@@ -7,16 +7,16 @@
 
 **Team Members:** 
 -   NURIN SYAFIQAH BINTI MOHD SAOFI
-- [insert Member Name]
-- [insert Member Name]
-- [insert Member Name]
+- NURSYAFIQAH ADILLA BINTI MOHD SYAFIQ
+- NOR AFIEQA BINTI MAHDI
+- NUR FATIN BINTI YAZID
 
 
 - [ ] **Objectives:**
-- Break out the project goal into more specific objectives
-- [insert]
-- [insert]
-- [insert]
+- The main purpose of the project is 
+- To utilize the usage of technology in road. 
+- To decrease human work for detecting small number using bareyes.
+- To minimal the number or road criminal and road accident. 
 
 
 ##  B. ABSTRACT 
