@@ -78,7 +78,7 @@ Let’s take a look at the dataset we’ll be using to train our COVID-19 face m
 
 Our plate number recognition dataset as shown in Figure 3:
 
-![Figure 3]( https://www.pyimagesearch.com/wp-content/uploads/2020/04/face_mask_detection_dataset.jpg )
+![Figure 3]( hthttps://github.com/nursyafiqahJackson/Artificial-IntelligenceProject/blob/main/images%20(3).jfif )
 
 Figure 3: A plate number recognition that can detect the plate even from sided trace. 
 
