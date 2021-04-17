@@ -1,5 +1,5 @@
 # Artificial-IntelligenceProject
-# FACE MASK DETECTION USING DEEP LEARNING 
+# CAR PLATE NUMBER RECOGNITION USING DEEP LEARNING. 
 
 ## A. PROJECT SUMMARY
 
@@ -21,12 +21,12 @@
 
 ##  B. ABSTRACT 
 
-In late December 2019, a previous unidentified coronavirus, currently named as the 2019 novel coronavirus, emerged from Wuhan, China, and resulted in a formidable outbreak in many cities in China and expanded globally, including Thailand, Republic of Korea, Japan, United States, Philippines, Viet Nam, and our country (as of 2/6/2020 at least 25 countries). Covid-19 are Person-to-person transmission may occur through droplet or contact transmission and if there is a lack of stringent infection control or if no proper personal protective equipment available, it may jeopardize the first-line healthcare workers.
+Vechicle plate recognition has been studied since 1990s.The first approach was based on characteristic. The input image will be processed to enrich the boundry lines informtation by algorithms such as gradient filter and resulting in edging images. 
 
-The best safety measure that can be taken is enforcing the people to wear a face mask whenever they are outside to slow down the COVID-19 infection rate. Mask wearing significantly reduced the amounts of various airborne viruses coming from infected patients, measured using the breath-capturing "Gesundheit II machine" developed by Dr. Don Milton, a professor of applied environmental health and a senior author of the study published April 3 in the journal Nature Medicine. In short, masks can help prevent the spread of COVID-19 and that the more people wearing masks, the better.
+The image are process by certain algorithms.Hough Transform in detecting lines. Eventually, couple of two parallel lines will be considered as plate-candidate. The boundry line detection is not suitable of other than horizontal plate number. This will corrupting the boundry lines.The Hough transform inherently time-consuming. 
 
-As for now, you as a Data Scientist or Machine Learning Engineer or Practitioner are going to use AI technology to recognize people whether they are wearing face mask or not in the public or open space.
-
+The colour and texture of the license plate can be used to identify but they seem to aimless and ineffective. 
+As for now, we are going to use AI technology to recognize car plate registration number :  
 
 ![Coding](https://github.com/nursyafiqahJackson/Artificial-IntelligenceProject/blob/6e1c16d7ed3c9d5c3b4bf23188352611832c0409/download%20(2).jfif)
 
@@ -36,20 +36,22 @@ Figure 1 shows the AI output of detecting which user is not wearing a face mask 
 
 ## C.  DATASET
 
-In this project, we’ll discuss our two-phase COVID-19 face mask detector, detailing how our computer vision/deep learning pipeline will be implemented.
+In this project, we’ll discuss our four-phase vehicle number plate recognition , detailing how our computer vision/deep learning pipeline will be implemented.
 
-From there, we’ll review the dataset we’ll be using to train our custom face mask detector.
+From there, we’ll review the dataset we’ll be using to train our custom number plate recognition for Malaysia.
 
-I’ll then show you how to implement a Python script to train a face mask detector on our dataset using Keras and TensorFlow.
+I’ll then show you how to implement a Python script to train a plate recognition on our dataset using Keras and TensorFlow.
 
-We’ll use this Python script to train a face mask detector and review the results.
+We’ll use this Python script to train a number plate detector and review the results.
 
-Given the trained COVID-19 face mask detector, we’ll proceed to implement two more additional Python scripts used to:
+The algorithm of number plate recognition consist as follow : 
 
-- Detect COVID-19 face masks in images
-- Detect face masks in real-time video streams
-
-We’ll wrap up the post by looking at the results of applying our face mask detector.
+- Capturing car images
+- Extracting the images of license plate
+- Extracting characters from the plate
+- Recognizing the characte
+- 
+We’ll wrap up the post by looking at the results of applying our number plate recognition.
 
 
 There is two-phase COVID-19 face mask detector as shown in Figure 2:
