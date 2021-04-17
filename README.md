@@ -146,7 +146,7 @@ In this project, you learned how to create a vehicle number plate recognition us
 
 Our vehicle number plate recognition is accurate, and since we used the MobileNetV2 architecture, it’s also computationally efficient, making it easier to deploy the model to embedded systems (Raspberry Pi, Google Coral, Jetosn, Nano, etc.).
 
-[![demo](https://www.youtube.com/watch?v=nIq88fVd27k&ab_channel=TanWenXiang"demo")
+[![demo]( https://www.youtube.com/watch?v=nIq88fVd27k&ab_channel=TanWenXiang )
 
 
 
